@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:4000",
+
+  "mock": true,
+
+  "mockResponseDelay": 1.2,
+
+  "mockResponses": {
+
+    "/auth/api/login": { "token": "eyx.yxs.asd"}
+
+  }
+}

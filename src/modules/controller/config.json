@@ -1,0 +1,23 @@
+{
+
+  "initialApp": "welcome",
+
+  "apps": {
+
+    "welcome": {
+      "hash": "welcome",
+      "requiredRole": null,
+      "requiredPermission": null,
+      "fallbackApp": null
+    },
+
+    "home": {
+      "hash": "home",
+      "requiredRole": null,
+      "requiredPermission": null,
+      "fallbackApp": null
+    }
+
+  }
+
+}

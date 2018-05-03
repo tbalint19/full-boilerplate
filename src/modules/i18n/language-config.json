@@ -1,0 +1,22 @@
+{
+  "en": {
+    "navbar.title": "App",
+    "login.username": "Username",
+    "login.password": "Password",
+    "login.button": "Login"
+  },
+
+  "hu": {
+    "navbar.title": "App",
+    "login.username": "Felhasználónév",
+    "login.password": "Jeszó",
+    "login.button": "Bejelentkezés"
+  },
+
+  "de": {
+    "navbar.title": "Németül",
+    "login.username": "Németül",
+    "login.password": "Németül",
+    "login.button": "Németül"
+  }
+}
