@@ -9,7 +9,7 @@ export default class NotificationsPlugin {
    Vue.prototype.$addError = this.client.addError
    Vue.prototype.$addNote = this.client.addNote
    Vue.prototype.$addSuccess = this.client.addSuccess
-   Vue.prototype.$deleteNotification = this.client.removeById
+   Vue.prototype.$deleteNotification = this.client.deleteNotification
    Vue.prototype.$notifications = this.client.messages
   }
 }

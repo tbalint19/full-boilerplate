@@ -5,13 +5,13 @@
         <span>Brand 2018</span>
         <span>
           <button @click="$setLang('hu')" class="lang-button">
-            <img class="button-img" src="../../_assets/hun.jpeg"/>
+            <img class="button-img" src="../../../static/hun.jpeg"/>
           </button>
           <button class="lang-button" @click="$setLang('en')">
-            <img class="button-img" src="../../_assets/eng.jpeg"/>
+            <img class="button-img" src="../../../static/eng.jpeg"/>
           </button>
           <button class="lang-button" @click="$setLang('de')">
-            <img class="button-img" src="../../_assets/ger.jpeg"/>
+            <img class="button-img" src="../../../static/ger.jpeg"/>
           </button>
         </span>
       </div>
@@ -21,13 +21,11 @@
 
 <script>
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
-import {AUTH} from '../../modules/auth.js'
 
 export default {
   name: 'app-footer',
   data () {
     return {
-      auth: AUTH
     }
   },
   components: {

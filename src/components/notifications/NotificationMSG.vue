@@ -28,7 +28,7 @@ export default {
   methods: {
     close: function(id) {
       this.isRemoved = true
-      setTimeout(() => this.$deleteNotification(id), 350)
+      setTimeout(() => this.$deleteNotification(id), 300)
     }
   },
   computed: {
@@ -58,18 +58,16 @@ export default {
 }
 
 .msg-arrive {
-  animation: msgArrive 7s ease-out forwards;
+  animation: msgArrive 0.7s ease-out forwards;
 }
 
 @keyframes msgArrive {
   0% { transform: translateX(300px); opacity: 0; }
-  10% { transform: translateX(0px); opacity: 0.9; }
-  95% { transform: translateX(0px); opacity: 0.9; }
-  100% { transform: translateX(50px); opacity: 0; }
+  100% { transform: translateX(0px); opacity: 0.9; }
 }
 
 .msg-remove {
-  animation: msgRemove 0.35s ease-out forwards;
+  animation: msgRemove 0.3s ease-out forwards;
 }
 
 @keyframes msgRemove {

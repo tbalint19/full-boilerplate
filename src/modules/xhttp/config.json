@@ -7,7 +7,9 @@
 
   "mockResponses": {
 
-    "/auth/api/login": { "token": "eyx.yxs.asd"}
+    "/auth/api/login": { "token": "eyx.yxs.asd"},
+
+    "/auth/api/renew": { "success": true}
 
   }
 }

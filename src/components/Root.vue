@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Navbar from './components/navbar/Navbar'
-import Application from './components/application/Application'
-import Notifications from './components/notifications/Notifications'
-import AppFooter from './components/footer/AppFooter'
+import Navbar from './navbar/Navbar'
+import Application from './application/Application'
+import Notifications from './notifications/Notifications'
+import AppFooter from './footer/AppFooter'
 
 export default {
   name: 'root',

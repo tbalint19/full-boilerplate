@@ -17,8 +17,6 @@
 </template>
 
 <script>
-import { AUTH } from '../../modules/auth.js'
-
 // Remove and delete file
 import Demo from './Demo'
 // Remove and delete file
@@ -27,7 +25,6 @@ export default {
   name: 'application',
   data () {
     return {
-      auth: AUTH
     }
   },
   components: {

@@ -38,11 +38,11 @@ export default {
   methods: {
     triggerGet: function() {
       this.getLoading = true
-      this.$client.login().then(r => { this.getLoading = false; this.$addSuccess("Get", "arrived") })
+      this.$client.renew().then(r => { this.getLoading = false; this.$addSuccess("Get data:", JSON.stringify(r)) })
     },
     triggerPost: function() {
       this.postLoading = true
-      this.$client.login().then(r => { this.postLoading = false; this.$addSuccess("Post", "arrived") })
+      this.$client.login(1, 2).then(r => { this.postLoading = false; this.$addSuccess("Post data", JSON.stringify(r)) })
     },
     triggerSuccess: function() {
       this.$addSuccess("asdasd", "asdasd asdasd adasd")

@@ -76,7 +76,7 @@ export default {
   z-index: 1000002;
   padding: 20px;
   border-radius: 3px;
-  box-shadow: 0 0 15px gold;
+  box-shadow: 0 0 15px #555;
 }
 
 #app-modal-header {

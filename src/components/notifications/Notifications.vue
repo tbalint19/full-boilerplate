@@ -1,8 +1,8 @@
 <template>
   <div class="notifications">
-    <NotificationMSG v-for="notification in $notifications" v-bind:key="notification.id"
+    <NotificationMSG v-for="notification in notifications" v-bind:key="notification.id"
       v-bind:id="notification.id"
-      v-bind:msgType="notification.type"
+      v-bind:msgType="notification.msgType"
       v-bind:title="notification.title"
       v-bind:text="notification.text">
     </NotificationMSG>
@@ -16,6 +16,7 @@ export default {
   name: 'notifications',
   data () {
     return {
+      notifications: this.$notifications
     }
   },
   components: {

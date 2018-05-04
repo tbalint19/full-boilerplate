@@ -1,5 +1,5 @@
 import { httpGet, httpPost } from './xhttp'
-import { mockFactory } from '../util/mock-utils'
+import { mockFactory } from './mock-utils'
 import config from './config.json'
 
 export default class Client {

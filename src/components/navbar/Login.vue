@@ -12,17 +12,15 @@
 <script>
 import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 import faSpinner from '@fortawesome/fontawesome-free-solid/faSpinner'
-import {AUTH} from '../../modules/auth.js'
 
 export default {
   name: 'login',
   data () {
     return {
-      auth: AUTH
     }
   },
   methods: {
-    
+
   },
   components: {
     FontAwesomeIcon
